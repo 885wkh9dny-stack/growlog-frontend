@@ -1,4 +1,4 @@
-const API = "http://localhost:8000";
+const API = "";
 export async function post(path: string, data: any) {
   const res = await fetch(API + path, {
     method: "POST",
